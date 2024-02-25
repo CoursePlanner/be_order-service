@@ -1,0 +1,17 @@
+server:
+  port: 9003
+  servlet:
+    context-path: "/api/order-service"
+
+
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/cp_order_payment_db"
+    username: "cp_service"
+    password: "=PM8cT?hO|5BljNJgMr9%+-7(j5.!IgZ"
+    driver-class-name: "org.postgresql.Driver"
+    hikari:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
